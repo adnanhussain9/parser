@@ -23,7 +23,7 @@ Adnan\Parser\ParsedownServiceProvider::class,
 ```
 
 
-## Usage
+## Usage Example
 
 
 
@@ -40,6 +40,8 @@ Adnan\Parser\ParsedownServiceProvider::class,
 
 @parsedown('## h2');
 ```
+## Customization 
+It can be done in config markdown.php
 
 ## Developed in
 IB ARTS Pvt Ltd
