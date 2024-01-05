@@ -2,10 +2,18 @@
 
 namespace Adnan\Parser;
 
-class MarkdownParser{
-    public static function parse($string){
-        $parsedown = new \Parsedown();
+use Parsedown;
 
-        return $parsedown->text($string);
+class MarkdownParser{
+    protected $parser;
+
+    public function __construct()
+    {
+        $this->parser = new Parsedown();
+    }
+
+    public function parse($markdown)
+    {
+        return $this->parser->text($markdown);
     }
 }

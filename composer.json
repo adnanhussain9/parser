@@ -2,6 +2,12 @@
     "name": "adnan/parser",
     "description": "Mardown Parser",
     "autoload": {
+        "files": [
+            "src/helper.php"
+        ],
+        "classmap": [
+            "src/"
+        ],
         "psr-4": {
             "Adnan\\Parser\\": "src/"
         }
