@@ -22,5 +22,19 @@
     },
     "require": {
         "erusev/parsedown": "^1.7"
-    }
+    },
+    
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Adnan\\Parser\\ParsedownServiceProvider"
+            ],
+            "aliases": {
+                "LaravelParsedown": "Adnan\\Parser\\Facades\\Parsedown"
+            }
+        }
+    },
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
