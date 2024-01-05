@@ -1,0 +1,26 @@
+{
+    "name": "adnan/parser",
+    "description": "Mardown Parser",
+    "autoload": {
+        "psr-4": {
+            "Adnan\\Parser\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Adnan\\Parser\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Adnan Hussain",
+            "email": "7xy.plane@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "orchestra/testbench": "^8.19"
+    },
+    "require": {
+        "erusev/parsedown": "^1.7"
+    }
+}
